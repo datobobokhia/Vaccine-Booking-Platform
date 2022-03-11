@@ -1,0 +1,165 @@
+en:
+  admin:
+    users:
+      notices:
+        created: 'User was successfully created.'
+        updated: 'User was successfully updated'
+        destroyed: 'User was successfully destroyed'
+      list:
+        header: 'Users'
+        full_name: 'Full Name'
+        email: 'Email'
+        active: 'Active'
+        super_admin: 'SuperAdmin'
+        created_at: 'CreatedAt'
+        updated_at: 'UpdatedAt'
+
+    vaccines:
+      notices:
+        created: 'Vaccines was successfully created.'
+        updated: 'Vaccines was successfully updated'
+        destroyed: 'Vaccines was successfully destroyed'
+      list:
+        header: 'Vaccines'
+        VaccinesItems: 'Vaccines'
+        active: 'Active'
+        description: 'Description'
+
+    bookings:
+      list:
+        header: 'Bookings'
+        vaccine: 'Vaccine'
+        guid: 'Guid'
+        patient: 'Patient'
+        step_state: 'Step_state'
+        created_at: 'CreatedAt'
+        ip_address: 'Ip_address'
+        browser_name: 'Browser_name'
+        os_name: 'Os_name'
+
+    patients:
+      notices:
+        created: 'Patient was successfully created.'
+        updated: 'Patient was successfully updated'
+        destroyed: 'Patient was successfully destroyed'
+      list:
+        header: 'Patients'
+        first_name: 'First name'
+        last_name: 'Last Name'
+        birth_date: 'birth_date'
+        pin: 'Pin'
+        email: 'Email'
+        non_resident: 'non_resident'
+        phone_number: 'Phone number'
+        created_at: 'CreatedAt'
+        updated_at: 'UpdatedAt'
+        update_btn: 'Update Patient'
+
+    slots:
+      errors:
+        duplicate_slot_error: 'Duplicate or incorect start-end date slot'
+      list:
+        header: 'Slots'
+        business_unit_name: 'BusinessUnitName'
+        duration: 'Duration'
+        start_date: 'StartDate'
+        end_date: 'EndDate'
+        active: 'IsActive'
+        created_at: 'CreatedAt'
+        updated_at: 'UpdatedAt'
+      notices:
+        created: 'Slots was successfully created'
+        updated: 'Slots was successfully updated'
+        destroyed: 'Slots was successfully destroyed'
+        
+    units:
+      list:
+        header: 'Units'
+        country_name: 'Country name'
+        city_name: 'City name'
+        district_name: 'District name'
+        name: 'Name'
+        code: 'Code'
+        active: 'Active'
+        created_at: 'CreatedAt'
+        updated_at: 'UpdatedAt'
+      notices:
+        created: 'Bunises slot was successfully created'
+        updated: 'Bunises slot was successfully updated'
+        destroyed: 'Bunises slot was successfully destroyed'
+        
+    orders:
+      list:
+        header: 'Orders'
+        business_unit: 'Business unit'
+        patient: 'Patient'
+        code: 'code'
+        date: 'date'
+        finished: 'Finished'
+        created_at: 'Created'
+        updated_at: 'Updated'
+    sms:
+      list:
+        header: 'Messages'
+        title: 'Title'
+        message: 'Message'
+        mobile_phone: 'Mobile phone'
+        order_code: 'Order code'
+        sent_at: 'Sent'
+        created_at: 'Created'
+
+    countries:
+      list:
+        header: 'Countries'
+        country_name: 'Country name'
+        code: 'Code'
+        active: 'Active'
+      notices:
+        created: 'Country was successfully created'
+        updated: 'Country was successfully updated'
+        destroyed: 'Country was successfully destroyed'
+
+    cities:
+      list:
+        header: 'Cities'
+        country_name: 'Country name'
+        city_name: 'City name'
+        code: 'Code'
+        active: 'Active'
+      notices:
+        created: 'City was successfully created'
+        updated: 'City was successfully updated'
+        destroyed: 'City was successfully destroyed'
+
+    districts:
+      list:
+        header: 'District'
+        city_name: 'City name'
+        district_name: 'District name'
+        code: 'Code'
+        active: 'Active'
+        created_at: 'CreatedAt'
+        updated_at: 'UpdatedAt'
+      notices:
+        created: 'District was successfully created'
+        updated: 'District was successfully updated'
+        destroyed: 'District was successfully destroyed'
+
+  web:
+    main:
+      header: 'Online booking'
+      seats: "Seats: %{quantity}"
+      register_text: "Register"
+      step0_submit: 'Next'
+      step1_submit: 'Next'
+      step2_submit: 'Finish'
+      step2:
+        full_name: 'Full Name'
+        email: 'Email'
+        pin: 'Pin'
+        mobile_phone: 'Mobile Phone'
+        birth_date: 'Birth Date'
+        order_address: 'Order Address'
+        order_date: 'Order date'
+        vaccine: 'Vaccine'
+        slot_already_reserved: 'This lost already reserved'

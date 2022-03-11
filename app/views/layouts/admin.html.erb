@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin - VacBookingSystem</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'admin', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'admin', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <nav class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row bd-navbar">
+      <%= link_to 'Admin', admin_root_url, class: 'navbar-brand' %>
+
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+         <%= link_to 'User', admin_users_path, class: 'nav-link'%>
+        </li>
+
+        <li class="nav-item">
+         <%= link_to 'Vaccine Items', admin_vaccines_items_path, class: 'nav-link'%>
+        </li>
+
+        <li class="nav-item">
+         <%= link_to 'Booking', admin_bookings_path, class: 'nav-link'%>
+        </li>
+
+        <li class="nav-item">
+         <%= link_to 'Patients', admin_patients_path, class: 'nav-link'%>
+        </li>
+
+        <li class="nav-item">
+         <%= link_to 'Slots', admin_business_unit_slots_path, class: 'nav-link' %>
+        </li>
+
+        <li class="nav-item">
+         <%= link_to 'Business Unit', admin_business_units_path, class: 'nav-link' %>
+        </li>
+
+        <li class="nav-item">
+          <%= link_to 'Orders', admin_orders_path, class: 'nav-link' %>
+         </li>
+
+        <li class="nav-item">
+          <%= link_to 'Message', admin_sms_path, class: 'nav-link' %>
+         </li>
+
+        <li class="nav-item">
+         <%= link_to 'Country', admin_countries_path, class: 'nav-link' %>
+        </li>
+
+        <li class="nav-item">
+         <%= link_to 'City', admin_cities_path, class: 'nav-link' %>
+        </li>
+
+        <li class="nav-item">
+         <%= link_to 'District', admin_districts_path, class: 'nav-link' %>
+        </li>
+        
+        <li class="nav-item">
+          <%= link_to flag_icon(:ge), locale: :ka %>
+        </li>
+        
+        <li class="nav-item">
+          <%= link_to flag_icon(:us), locale: :en %>
+        </li>
+        
+
+      </ul>
+    </div>
+
+  </nav>
+  <div class="container">
+    <%= yield %>
+  </div>
+  </body>
+</html>
+ 

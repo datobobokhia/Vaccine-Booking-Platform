@@ -1,0 +1,34 @@
+<%= simple_form_for [:admin, unit] do |f| %>
+<div class="row" data-controller="select">
+  
+  <%= f.label :country_id, 'Country' %>
+  <%= f.collection_select :country_id, @countries.active.order(:name), :id, :name,
+    { include_blank: 'Select Country' },
+    class: 'form-select',
+    data: { 
+      action: "change->select#fetchCities",
+      select_target: "country"
+    } 
+  %>
+
+<%= f.label :city_id, 'City' %>
+  <%= f.collection_select :city_id, @cities, :id, :name,
+    { include_blank: 'Select City' },
+    class: 'form-select',
+    data: { 
+      action: "change->select#fetchDistricts",
+      select_target: "cities" } 
+  %>
+<%= f.label :district_id, 'District' %>
+  <%= f.collection_select :district_id, @districts, :id, :name,
+    { include_blank: 'Select District' },
+    class: 'form-select',
+    data: { 
+      select_target: "districts" } 
+  %>
+</div>
+<%= f.input :name %>
+<%= f.input :code %>
+<%= f.input :active %>
+<%= f.button :submit, class: 'btn btn-primary' %>
+<% end %>
