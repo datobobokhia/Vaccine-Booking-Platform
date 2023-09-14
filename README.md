@@ -25,28 +25,28 @@ This is a COVID-19 vaccine booking platform developed using Ruby on Rails and Po
 ## Installation
 
 1. Clone this repository to your local machine:
-
+  ```bash
 git clone <repository-url>
 
 
 2. Navigate to the project directory:
-
+  ```bash
 cd covid-vaccine-booking-platform
 
 
 3. Install the required dependencies:
-
+  ```bash
 bundle install
 
 
 4. Set up the database:
-
+  ```bash
 rails db:create
 rails db:migrate
 
 
 5. Start the Rails server:
-
+  ```bash
 rails server
 
 
