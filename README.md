@@ -26,29 +26,29 @@ This is a COVID-19 vaccine booking platform developed using Ruby on Rails and Po
 
 1. Clone this repository to your local machine:
   ```bash
-  git clone <repository-url>
+  git clone https://github.com/datobobokhia/VaccineBookingPlatform
   ```
 
 2. Navigate to the project directory:
   ```bash
-  cd covid-vaccine-booking-platform
-
+  cd Vaccine-Booking-Platform
+  ```
 
 3. Install the required dependencies:
   ```bash
   bundle install
-
+  ```
 
 4. Set up the database:
   ```bash
   rails db:create
   rails db:migrate
-
+  ```
 
 5. Start the Rails server:
   ```bash
   rails server
-
+  ```
 
 6. Access the application in your web browser at `http://localhost:3000`.
 
@@ -66,9 +66,10 @@ This is a COVID-19 vaccine booking platform developed using Ruby on Rails and Po
 
 ## Contributing
 
-We welcome contributions to improve this vaccine booking platform. Feel free to open issues or submit pull requests.
+I welcome contributions to improve this vaccine booking platform. Feel free to open issues or submit pull requests.
 
 
-## Contact
+## Contact Info
 
-[dato.bobokhia@gmail.com](mailto:dato.bobokhia@gmail.com).
+* LinkedIn - https://www.linkedin.com/in/david-bobokhia/
+* Email - dato.bobokhia@gmail.com
