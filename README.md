@@ -16,6 +16,17 @@ This is a COVID-19 vaccine booking platform developed using Ruby on Rails and Po
 
 - **Confirmation**: Users receive a confirmation email and SMS with their booking details.
 
+## Screenshots
+
+<img src="https://github.com/datobobokhia/VaccineBookingPlatform/assets/69156870/d8e8ff9e-3c24-47f4-a897-1ffd84b655cf" alt="Vaccine Booking Platform's Homepage">
+
+
+<img src="https://github.com/datobobokhia/VaccineBookingPlatform/assets/69156870/f22e7253-1035-4690-b891-91336001b09f" alt="Vaccine Booking Platform's Vaccines Section">
+
+
+<img src="https://github.com/datobobokhia/VaccineBookingPlatform/assets/69156870/d00d27e2-ed8a-4919-845b-146c509322bf" alt="Vaccine Booking Platfrom's Registration Section">
+
+
 ## Technologies Used
 
 - **Ruby**: The backend of the application is written in Ruby, making use of the Ruby on Rails framework.
