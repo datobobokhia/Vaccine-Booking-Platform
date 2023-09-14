@@ -27,7 +27,7 @@ This is a COVID-19 vaccine booking platform developed using Ruby on Rails and Po
 1. Clone this repository to your local machine:
   ```bash
   git clone <repository-url>
-
+  ```
 
 2. Navigate to the project directory:
   ```bash
